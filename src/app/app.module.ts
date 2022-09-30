@@ -8,9 +8,21 @@ import { SwapComponent } from './components/swap/swap.component';
 import { CurrenciesComponent } from './components/currencies/currencies.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
+import { FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSortModule } from '@angular/material/sort';
+import { MatCardModule } from '@angular/material/card';
+import { MatTabsModule } from '@angular/material/tabs';
+import { HttpClientModule } from '@angular/common/http';
+
 // Material UI
 import { MatIconModule } from '@angular/material/icon';
-import {CdkMenuModule} from '@angular/cdk/menu';
+import { CdkMenuModule } from '@angular/cdk/menu';
 
 @NgModule({
   declarations: [
@@ -24,7 +36,19 @@ import {CdkMenuModule} from '@angular/cdk/menu';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    CdkMenuModule
+    CdkMenuModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatTableModule,
+    MatFormFieldModule,
+    MatPaginatorModule,
+    MatInputModule,
+    MatButtonModule,
+    MatToolbarModule,
+    MatSortModule,
+    MatCardModule,
+    MatTabsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

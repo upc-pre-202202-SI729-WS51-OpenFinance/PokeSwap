@@ -1,0 +1,22 @@
+.table-wrapper{
+    width: 50%;
+    margin: 50px auto;
+}
+
+table{
+    width: 100%;
+}
+
+tr.editable-row{
+    background-color: lightskyblue;
+}
+
+th{
+    background-color: black;
+    color: white
+}
+
+td{
+    background-color: rgb(39, 39, 39);
+    color: white
+}
