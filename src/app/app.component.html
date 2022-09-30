@@ -1,34 +1,20 @@
 <header>
   <mat-toolbar class="toolbar-color">
     <img class="pokeswap-logo" src="assets/pokeswap.png" alt="PokeSwap" width="80" height="70">
-  
+
     <a mat-button [routerLink]="'/home'"><b>Swap</b></a>
     <a mat-button [routerLink]="'/currencies'"><b>Currencies</b></a>
     <a mat-button [routerLink]="'/portfolio'"><b>Portfolio</b></a>
-  
+
     <div class="mat-spacer"></div>
-  
+
     <button mat-button><b>1,423.43 BUSD</b></button>
-  
+
     <img src="assets/profile-logo.png" alt="Profile" width="50" height="50">
-  
+
   </mat-toolbar>
-  
-<!--
 
-<div class="logo">
-    <img src="" alt="">
-  </div>
-  <nav>
-    <ul>
-      <li><a routerLink="/swap" routerLinkActive="active" ariaCurrentWhenActive="page">Swap</a></li>
-      <li><a routerLink="/currencies" routerLinkActive="active" ariaCurrentWhenActive="page">Currencies</a></li>
-      <li><a routerLink="/portfolio" routerLinkActive="active" ariaCurrentWhenActive="page">Portfolio</a></li>
-    </ul>
-  </nav>
 </header>
-
--->
 
 <main>
   <router-outlet></router-outlet>
