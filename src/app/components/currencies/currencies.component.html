@@ -1,1 +1,28 @@
-<p>currencies works!</p>
+<div class="currencies">
+  <div id="carouselId" class="carousel slide" data-ride="carousel">
+    <!-- <ol class="carousel-indicators">
+      <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselId" data-slide-to="1"></li>
+      <li data-target="#carouselId" data-slide-to="2"></li>
+    </ol> -->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active" *ngFor="let item of items">
+        <mat-card
+        style="
+          background-color: black;
+          color: white;
+          ">
+          <mat-card-header >
+            <mat-card-title>
+              <h1>{{ item.name }}</h1>
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <h2>{{ item.value }}</h2>
+            <p>{{ item.sub }}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>
