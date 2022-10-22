@@ -1,0 +1,246 @@
+{
+  "coins": [
+    {
+      "id": 1,
+      "name": "Thether Dollar",
+      "symbol": "USDT",
+      "price": 1,
+      "quantity": 1089.2200000000003
+    },
+    {
+      "id": 2,
+      "name": "Bitcoin",
+      "price": 19516.33,
+      "symbol": "BTC",
+      "quantity": 0.32
+    },
+    {
+      "id": 3,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "price": 1335.22,
+      "quantity": 0.18423930138853523
+    },
+    {
+      "id": 4,
+      "name": "Shiba INU",
+      "price": 0.000011,
+      "symbol": "SHIB",
+      "quantity": 3123123.12
+    },
+    {
+      "id": 5,
+      "name": "Binance Coin",
+      "price": 284.45,
+      "symbol": "BNB",
+      "quantity": 21.65
+    },
+    {
+      "id": 6,
+      "name": "Ripple",
+      "price": 0.474399,
+      "symbol": "XRP",
+      "quantity": 434.1
+    },
+    {
+      "id": 7,
+      "name": "Binance USD",
+      "price": 1,
+      "symbol": "BUSD",
+      "quantity": 3441
+    },
+    {
+      "id": 8,
+      "name": "Cardano",
+      "price": 0.437716,
+      "symbol": "ADA",
+      "quantity": 4342
+    },
+    {
+      "id": 9,
+      "name": "Solana",
+      "price": 33.9,
+      "symbol": "SOL",
+      "quantity": 234
+    },
+    {
+      "id": 10,
+      "name": "Dogecoin",
+      "price": 0.060591,
+      "symbol": "DOGE",
+      "quantity": 131456436.03
+    },
+    {
+      "id": 11,
+      "name": "Polkadot",
+      "price": 6.44,
+      "symbol": "DOT",
+      "quantity": 41
+    },
+    {
+      "id": 12,
+      "name": "DAI",
+      "price": 1,
+      "symbol": "DAI",
+      "quantity": 67
+    },
+    {
+      "id": 13,
+      "name": "Polygon",
+      "price": 0.775017,
+      "symbol": "MATIC",
+      "quantity": 441.42
+    },
+    {
+      "id": 14,
+      "name": "TRON",
+      "price": 0.061444,
+      "symbol": "TRX",
+      "quantity": 44124.09
+    },
+    {
+      "id": 15,
+      "name": "Avalanche",
+      "price": 17.27,
+      "symbol": "AVAX",
+      "quantity": 43
+    },
+    {
+      "id": 16,
+      "name": "Uniswap",
+      "price": 6.31,
+      "symbol": "UNI",
+      "quantity": 56
+    },
+    {
+      "id": 17,
+      "name": "OKB",
+      "price": 15.79,
+      "symbol": "OKB",
+      "quantity": 84.12
+    },
+    {
+      "id": 18,
+      "name": "LEO Token",
+      "price": 4.21,
+      "symbol": "LEO",
+      "quantity": 84.74
+    },
+    {
+      "id": 19,
+      "name": "Chainlink",
+      "price": 7.82,
+      "symbol": "LINK",
+      "quantity": 76
+    },
+    {
+      "id": 20,
+      "name": "Litecoin",
+      "price": 53.8,
+      "symbol": "LTC",
+      "quantity": 12.54
+    },
+    {
+      "id": 21,
+      "name": "Cosmos HUB",
+      "price": 12.69,
+      "symbol": "ATOM",
+      "quantity": 12.1
+    },
+    {
+      "id": 22,
+      "name": "FTX",
+      "price": 24.27,
+      "symbol": "FTT",
+      "quantity": 832.12
+    },
+    {
+      "id": 23,
+      "name": "Stellar",
+      "price": 0.114116,
+      "symbol": "XLM",
+      "quantity": 432.12
+    },
+    {
+      "id": 24,
+      "name": "NEAR Protocol",
+      "price": 3.57,
+      "symbol": "NEAR",
+      "quantity": 12
+    },
+    {
+      "id": 25,
+      "name": "Monero",
+      "price": 148.08,
+      "symbol": "XMR",
+      "quantity": 2
+    },
+    {
+      "id": 26,
+      "name": "Algorand",
+      "price": 0.349287,
+      "symbol": "ALGO",
+      "quantity": 43441.12
+    },
+    {
+      "id": 27,
+      "name": "Filecoin",
+      "price": 5.77,
+      "symbol": "FIL",
+      "quantity": 39
+    },
+    {
+      "id": 28,
+      "name": "Internet Computer",
+      "price": 6.12,
+      "symbol": "ICP",
+      "quantity": 311
+    },
+    {
+      "id": 29,
+      "name": "EOS",
+      "price": 1.19,
+      "symbol": "EOS",
+      "quantity": 12
+    },
+    {
+      "id": 30,
+      "name": "Axie Infinity",
+      "price": 12.67,
+      "symbol": "AXS",
+      "quantity": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "nombre": "Pedro Manzanares",
+      "balance": 5601.31
+    },
+    {
+      "id": 2,
+      "nombre": "Rafael Cortina",
+      "balance": 6523.09
+    },
+    {
+      "id": 3,
+      "nombre": "Alvaro Escobedo",
+      "balance": 10256.12
+    },
+    {
+      "id": 4,
+      "nombre": "Saul Goodman",
+      "balance": 1513158.31
+    },
+    {
+      "id": 5,
+      "nombre": "Marcelo Abolengo",
+      "balance": 54453.42
+    },
+    {
+      "id": 6,
+      "nombre": "Ronald Cárdenas",
+      "balance": 7956.74
+    }
+  ]
+}
