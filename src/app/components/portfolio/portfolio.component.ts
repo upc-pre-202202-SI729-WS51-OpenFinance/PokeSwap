@@ -49,10 +49,14 @@ export class PortfolioComponent implements OnInit, AfterViewInit {
     this.dataSource.sort = this.sort;
   }
 
+  //Editar item
+
   editItem(element: Coin){
     this.portfolioData = _.cloneDeep(element);
     this.isEditMode = true;
   }
+
+//Eliminar item
 
   deleteItem(id: number){
     this.portfolioService.delete(id).subscribe(()=>{
@@ -63,11 +67,12 @@ export class PortfolioComponent implements OnInit, AfterViewInit {
     console.log(this.dataSource.data);
   }
 
+//Cancelar edicion
   cancelEdit(){
     this.isEditMode = false;
     this.portfolioForm.resetForm();
   }
-
+//añadir token
   addCoin(){
     this.portfolioData.id = 0;
     this.portfolioService.create(this.portfolioData).subscribe((response: any)=>{
@@ -77,7 +82,7 @@ export class PortfolioComponent implements OnInit, AfterViewInit {
       });
     });
   }
-
+//actualizar informacion de token
   updateCoin(){
     this.portfolioService.update(this.portfolioData.id, this.portfolioData).subscribe((response: any)=>{
       this.dataSource.data = this.dataSource.data.map((o: Coin)=>{
