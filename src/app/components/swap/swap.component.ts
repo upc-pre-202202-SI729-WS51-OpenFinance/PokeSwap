@@ -14,7 +14,7 @@ export class SwapComponent implements OnInit, DoCheck {
 
   swapData: Coin;
   dataSource: any;
-
+  //default coins
   default_from = "USDT";
   default_to = "ETH";
 
@@ -35,7 +35,7 @@ export class SwapComponent implements OnInit, DoCheck {
     this.swapData = {} as Coin;
     this.dataSource = Array;
   }
-
+  //swap function
   swap(): void {
     this.swapData = {
       "id": this.dataSource[this.dataSource.findIndex((obj: { symbol: string; }) => obj.symbol === this.default_from)].id,
